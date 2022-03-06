@@ -3,5 +3,6 @@
 x = str(input("Podaj tekst : "))
 
 
-#
-# for i in x:
+
+for i in range(1,len(x),2):
+    print(x[i], end="-")
