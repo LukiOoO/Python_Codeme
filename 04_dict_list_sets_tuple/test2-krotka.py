@@ -1,0 +1,5 @@
+my_tuple = ('a',3.4,77,3j+4)
+temp_list =list(my_tuple)
+temp_list.remove(77)
+print(temp_list)
+my_tuple = tuple(temp_list)
