@@ -18,7 +18,24 @@
 # Gdy program będzie poprawnie działał, pozmieniaj wartości słownika (ale nie klucze!), aby zobaczyć, czy progam również zmienia swoje zachowanie.
 
 
+def dict_creator(brand,model,yeer):
+    car_dict = {}
+    car_dict["marka"] = brand
+    car_dict["model"] = model
+    car_dict["rocznik"] = yeer
+    print(car_dict)
 
+def yeer_check(model,yeer):
+    current_year = 2022
+    if current_year - yeer >= 25:
+        print(f"Gratulacje twój samochód {model} może zostać zarejestorwany jako zabytek")
+    else:
+        print(f"Twój samochód {model} jest zbyt młody żeby zostać zabytkiem")
 
+brand = str(input("Podaj marke: "))
+model = str(input("Podaj model: "))
+yeer = int(input("Podaj rocznik: "))
 
+dict_creator(brand,model ,yeer)
 
+yeer_check(model,yeer)
