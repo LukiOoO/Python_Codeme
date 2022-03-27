@@ -35,6 +35,7 @@ i = 0
 
 
 while x != y:
+
     previus = y
     i += 1
     y = int(input("Podaj liczbe od 1 do 100: "))
