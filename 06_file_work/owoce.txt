@@ -1,6 +1,6 @@
-Agrest
-Ananas
-Arbuz
-Aronia
-Awokado
-Banan
+agrest
+ananas
+arbuz
+aronia
+awokado
+aanan

@@ -3,9 +3,8 @@ from wojownik import Wojownik
 
 class Lucznik(Wojownik):
     def __init__(self):
-        super().__init__()
-        self._zycie = 40
+        super().__init__(40)
 
     def atakuj(self):
-        print('Łucznik: Wypuściłem strzałę!')
+        print('Lucznik: Wypuściłem strzałę!')
         self._doswiadczenie += 0.4

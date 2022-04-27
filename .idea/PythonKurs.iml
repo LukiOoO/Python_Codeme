@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Projekty" />
     <orderEntry type="module" module-name="04_dict_list_sets_tuple" />
+    <orderEntry type="module" module-name="Web_tic_tac_toe" />
   </component>
 </module>

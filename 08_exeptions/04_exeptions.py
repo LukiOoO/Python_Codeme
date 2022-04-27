@@ -22,9 +22,12 @@ def average_of_numbers():
 
 
 
+def main():
+    average_of_numbers()
+
 
 if __name__ == "__main__":
-    average_of_numbers()
+    main()
 
 
 '''

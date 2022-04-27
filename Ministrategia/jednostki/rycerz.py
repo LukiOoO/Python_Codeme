@@ -2,8 +2,7 @@ from wojownik import Wojownik
 
 class Rycerz(Wojownik):
     def __init__(self):
-        super().__init__()
-        self._zycie = 60
+        super().__init__(60)
 
     def atakuj(self):
         print('Rycerz: Machnąłem mieczem!')

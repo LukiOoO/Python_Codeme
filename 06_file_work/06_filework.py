@@ -27,10 +27,10 @@ def is_mastercard(card_number):
 
     return card_length == 16 and (starts_with_51_55 or starts_with_2221_2720)
 
-def write_to_file(filename):
-    with open(filename ,"w",encoding="utf-8") as f:
-        x = str(open_file())
-        f.write(x)
+def write_to_file(filename,card):
+    with open(filename ,"a+",encoding="utf-8") as f:
+        f.write(card)
+        f.write("\n")
 
 
 
@@ -45,8 +45,11 @@ print(new_list)
 
 for x in range(len(new_list)):
     if is_american_express(new_list[x]):
-        write_to_file(new_list[x])
+        print('a_e: ',new_list[x])
+        write_to_file("a_e.txt", new_list[x])
     if is_mastercard(new_list[x]):
-        write_to_file("mastercard.txt")
+        print('mastercard: ',new_list[x])
+        write_to_file("mastercard.txt", new_list[x])
     if is_visa(new_list[x]):
-        write_to_file("visa.txt")
+        print('visa: ',new_list[x])
+        write_to_file("visa.txt", new_list[x])

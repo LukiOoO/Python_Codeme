@@ -1,6 +1,9 @@
 # gry.py
 # Demonstruje tworzenie modułu
 
+# gry.py
+# Demonstruje tworzenie modułu
+
 class Player(object):
     """ Uczestnik gry. """
     def __init__(self, name, score = 0):

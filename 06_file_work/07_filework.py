@@ -9,12 +9,13 @@ def radom_word():
     if c == "o":
         with open("owoce.txt",encoding="utf-8") as f:
             x = f.readlines()
-            return random.choice(x)
+            return random.choice(x).rstrip("\n")
 
     if c == "z":
         with open("zwierzenta.txt",encoding="utf-8") as f:
             y = f.readlines()
-            return random.choice(y)
+            return random.choice(y).rstrip("\n")
+
 
 
 
@@ -22,8 +23,6 @@ def radom_word():
 
 
 def main_game(random_word):
-
-    print(random_word)
     user_guess = ""
     try_number = 10
     try_counter = 0
