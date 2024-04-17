@@ -14,3 +14,5 @@ if (s == reverse):
     print("yes it is palindrome")
 else:
     print("not it is not palindrome")
+
+

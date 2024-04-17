@@ -14,6 +14,3 @@ if len(signs) > 5:
     print("ciąg ma więcej niż 5 znaków")
 else:
     print()
-
-
-

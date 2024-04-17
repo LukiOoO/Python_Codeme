@@ -26,7 +26,6 @@ print(result7)
 
 
 
-
 # 4 inaczej
 x = int(input("podaj liczbe: "))
 if x % 2 == 0:

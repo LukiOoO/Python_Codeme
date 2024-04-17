@@ -1,5 +1,5 @@
 ﻿# Python Codeme
-this repository will contain the python code codeme 
+## This repository will contain the python code codeme course
 - 01 introduction
 - 02 types
 - 03 flow

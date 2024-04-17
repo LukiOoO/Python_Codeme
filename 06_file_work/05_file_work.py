@@ -8,7 +8,7 @@ def get_text():
 
 
 def clean_text(text):
-    extracs = ".!,()-—"
+    extracs = ".!,()-—;"
 
     for i in extracs:
         text = text.replace(i, "")

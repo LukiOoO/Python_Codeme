@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/04_dict_list_sets_tuple/.idea/04_dict_list_sets_tuple.iml" filepath="$PROJECT_DIR$/04_dict_list_sets_tuple/.idea/04_dict_list_sets_tuple.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Projekty/.idea/Projekty.iml" filepath="$PROJECT_DIR$/../Projekty/.idea/Projekty.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PythonKurs.iml" filepath="$PROJECT_DIR$/.idea/PythonKurs.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Web_tic_tac_toe/.idea/Web_tic_tac_toe.iml" filepath="$PROJECT_DIR$/../Web_tic_tac_toe/.idea/Web_tic_tac_toe.iml" />
     </modules>
   </component>
 </project>
